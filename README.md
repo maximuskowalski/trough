@@ -1,5 +1,11 @@
-# trough
+# TROUGH
  a snout repository
+ 
+##### REQUIRES
+ 
+sudo apt install inotify-tools
+
+pip3 install apprise
  
  
 
