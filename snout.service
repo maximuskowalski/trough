@@ -1,0 +1,18 @@
+# /etc/systemd/system/snout.service
+[Unit]
+Description=snout
+After=network-online.target
+
+[Service]
+User={{ user.name }}
+Group={{ user.name }}
+Type=simple
+ExecStart={{ /path/tothescript/snout.sh  }}
+Restart=always
+RestartSec=10
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=snout
+
+[Install]
+WantedBy=default.target
