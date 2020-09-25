@@ -1,3 +1,6 @@
 # trough
  a snout repository
-With thanks to https://github.com/nemchik, check out https://github.com/GhostWriters/DockSTARTer
+ 
+ 
+
+With thanks to iXNyNe https://github.com/nemchik, check out https://github.com/GhostWriters/DockSTARTer
