@@ -1,0 +1,14 @@
+# /etc/systemd/system/crophound.service
+[Unit]
+Description=crop hound
+After=network-online.target
+
+[Service]
+User=$USER
+Group=$USER
+Type=exec
+ExecStart="/home/$USER/trough/crophound.sh"
+# ExecStart="/home/$USER/trough/cropdog.sh"
+
+[Install]
+WantedBy=default.target
